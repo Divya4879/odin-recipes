@@ -1,0 +1,27 @@
+h1,li,h2,h3{
+    text-align: center;
+}
+
+.main-list{
+    list-style: none;
+    font-weight: bold;
+}
+
+body,a{
+    background-color: lightpink;
+    color: purple;
+}
+
+img{
+    width:200px;
+    height:auto;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+h3{
+    font-size: 32px;
+}
