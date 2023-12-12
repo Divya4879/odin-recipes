@@ -52,3 +52,7 @@ ol li,h6{
 #ordered-list li{
     list-style-type:decimal;
 }
+
+h3{
+    text-decoration: underline;
+}
