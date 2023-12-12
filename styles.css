@@ -8,13 +8,16 @@ h1,li,h2,h3{
 }
 
 body,a{
-    background-color: rgb(176, 126, 176);
+    background-color: rgba(176, 126, 176,0.7);
     color: purple;
+    margin:auto 36px;
 }
 
 img{
     width:200px;
     height:auto;
+    margin:auto;
+    display:block;
 }
 
 h1{
@@ -24,4 +27,28 @@ h1{
 
 h3{
     font-size: 32px;
+}
+
+#recipe{
+    width: 50%;
+    height:auto
+}
+
+.centered-recipe{
+    text-align: center;
+}
+
+.centered-list{
+    display: inline-block;
+    text-align: left;
+}
+
+
+ol li,h6{
+    font-size: 120%;
+    list-style-type: none;
+}
+
+#ordered-list li{
+    list-style-type:decimal;
 }
